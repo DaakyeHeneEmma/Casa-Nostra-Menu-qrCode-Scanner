@@ -20,7 +20,7 @@ const rgbDataURL = (r: number, g: number, b: number) =>
 
 const Color = () => (
 <div>
-    <h1>Casa Nostra Menu, Kindly Scroll Through</h1>
+    <h3>Casa Nostra Menu, Kindly Go Through</h3>
     <Image
       alt="Front Menu"
       src={'/front2.jpg'}
@@ -34,7 +34,7 @@ const Color = () => (
     />
     <Image
       alt="BreakFast"
-      src={'/breakfast.jpg'}
+      src={'/breakfast_page_1.jpg'}
       width={700}
       height={475}
       sizes="100vw"
