@@ -78,7 +78,7 @@ const Color = () => (
     />
     <Image
       alt="Drinks 2"
-      src={'/hard-drinks.jpg'}
+      src={'/hard-drinks2.jpg'}
       width={700}
       height={475}
       sizes="100vw"
