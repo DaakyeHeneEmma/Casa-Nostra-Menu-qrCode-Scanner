@@ -1,22 +1,4 @@
 import Image from 'next/image'
-// import styles from './page.module.css'
-import ViewSource from '../../components/view-source'
-
-
-
-const keyStr =
-  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
-
-const triplet = (e1: number, e2: number, e3: number) =>
-  keyStr.charAt(e1 >> 2) +
-  keyStr.charAt(((e1 & 3) << 4) | (e2 >> 4)) +
-  keyStr.charAt(((e2 & 15) << 2) | (e3 >> 6)) +
-  keyStr.charAt(e3 & 63)
-
-const rgbDataURL = (r: number, g: number, b: number) =>
-  `data:image/gif;base64,R0lGODlhAQABAPAA${
-    triplet(0, r, g) + triplet(b, 255, 255)
-  }/yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==`
 
 const Color = () => (
 <div>
@@ -34,7 +16,7 @@ const Color = () => (
     />
     <Image
       alt="BreakFast"
-      src={'/breakfast_page_1.jpg'}
+      src={'/menu-breakfast.jpg'}
       width={700}
       height={475}
       sizes="100vw"
@@ -45,7 +27,7 @@ const Color = () => (
     />
     <Image
       alt="Foods"
-      src={'/food-screen.jpg'}
+      src={'/menu-food_menu_one.jpg'}
       width={700}
       height={475}
       sizes="100vw"
@@ -56,7 +38,7 @@ const Color = () => (
     />
     <Image
       alt="Foods 2"
-      src={'/heavy-food.jpg'}
+      src={'/menu-foods.jpg'}
       width={700}
       height={475}
       sizes="100vw"
@@ -67,7 +49,7 @@ const Color = () => (
     />
     <Image
       alt="Drinks"
-      src={'/soft-drinks.jpg'}
+      src={'/menu-soft-drinks.jpg'}
       width={700}
       height={475}
       sizes="100vw"
@@ -78,7 +60,7 @@ const Color = () => (
     />
     <Image
       alt="Drinks 2"
-      src={'/hard-drinks2.jpg'}
+      src={'/menu-drinks.jpg'}
       width={700}
       height={475}
       sizes="100vw"
