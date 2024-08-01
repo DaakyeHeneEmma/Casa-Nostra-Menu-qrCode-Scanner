@@ -2,7 +2,6 @@ import Image from 'next/image'
 
 const Color = () => (
 <div>
-    <h3>Casa Nostra Menu, Kindly Go Through</h3>
     <Image
       alt="Front Menu"
       src={'/front2.jpg'}
