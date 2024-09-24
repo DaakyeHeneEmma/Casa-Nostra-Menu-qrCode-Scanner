@@ -1,85 +1,18 @@
-import Image from 'next/image'
+import Imagery from "../../components/ImageProp";
+import Items from "../../components/ImageJson";
 
-const Color = () => (
-<div>
-    <Image
-      alt="Front Menu"
-      src={'/front2.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-    <Image
-      alt="BreakFast"
-      src={'/menu-breakfast.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-    <Image
-      alt="Foods"
-      src={'/menu-food_menu_one.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-    <Image
-      alt="Foods 2"
-      src={'/menu-foods.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-    <Image
-      alt="Drinks"
-      src={'/menu-soft-drinks.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-    <Image
-      alt="Drinks 2"
-      src={'/menu-drinks.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-    <Image
-      alt="Back"
-      src={'/front.jpg'}
-      width={700}
-      height={475}
-      sizes="100vw"
-      style={{
-        width: '100%',
-        height: 'auto',
-      }}
-    />
-  </div>
-)
+const MainPage = () => {
+  return (
+    <>
+      {Items && Items.map((item, index) => (
+        <Imagery
+          alt={item.alt}
+          source={item.source}
+          key={index}
+        />
+      ))}
+    </>
+  );
+};
 
-export default Color
+export default MainPage;
