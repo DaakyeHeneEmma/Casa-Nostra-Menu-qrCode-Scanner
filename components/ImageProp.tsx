@@ -15,8 +15,11 @@
                 height={475}
                 sizes="100vw"
                 style={{
-                    width: '100%',
+                    width: "90%",
                     height: 'auto',
+                    alignContent:'center',
+                    alignItems:'center',
+                    alignSelf:'center',
                 }}
             />
             </>
