@@ -1,5 +1,6 @@
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
+import MenuBar from '../../components/MenuBar'
 
 export default function RootLayout({
   children,
@@ -8,7 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      
       <body>
+        <MenuBar />
         {children}
         <Analytics />
         </body>
