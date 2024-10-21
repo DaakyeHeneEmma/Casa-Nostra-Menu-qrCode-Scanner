@@ -1,2 +1,12 @@
 /node_modules
 .DS_Store
+
+.env
+.env/local
+
+.next/
+src/app/test.js
+
+../../next
+../../next/
+bun.lockb
