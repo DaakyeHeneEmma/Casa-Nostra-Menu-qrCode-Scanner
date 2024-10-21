@@ -16,7 +16,7 @@ const MainPage = () => {
         cardContainer: {
           display: 'flex',
           justifyContent: 'center',
-          flexWrap: 'wrap', // Allow wrapping of cards
+          // flexWrap: 'wrap', // Allow wrapping of cards
           marginTop: '1rem',
         },
         card: {
