@@ -1,6 +1,6 @@
 const Items = [{
     alt: "Soft Drinks",
-    source: `https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/menu-casa--nostra1-1.jpg`
+    source: "https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/menu-casa--nostra1-1.jpg"
   }, {
     alt: "Shots",
     source: `https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/menu-casa--nostra1-2.jpg`

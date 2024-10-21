@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-
-
 const MainPage = () => {
     const styles = {
         banner: {

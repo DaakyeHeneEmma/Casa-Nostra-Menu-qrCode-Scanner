@@ -5,4 +5,5 @@
 .env.local
 
 test.js
-/.next
+/.next 
+/.next/ 
