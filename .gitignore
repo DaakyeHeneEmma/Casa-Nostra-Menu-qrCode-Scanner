@@ -2,7 +2,7 @@
 .DS_Store
 
 .env
-.env/local
+.env.local
 
 src/app/test.js
 .next/
