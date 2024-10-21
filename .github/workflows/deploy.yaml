@@ -26,5 +26,7 @@ jobs:
 
       - name: Project TOKENS
         env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_S3_ACCESS_IMAGES: ${{ secrets.NEXT_PUBLIC_S3_ACCESS_IMAGES }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}  # Pulls Vercel token from GitHub secrets
         run: npx vercel --prod --token $VERCEL_TOKEN
