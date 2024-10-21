@@ -4,7 +4,4 @@
 .env
 .env/local
 
-.next/
 src/app/test.js
-
-bun.lockb
