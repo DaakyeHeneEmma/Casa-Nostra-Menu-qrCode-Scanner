@@ -15,7 +15,7 @@
                 height={475}
                 sizes="100vw"
                 style={{
-                    width: "90%",
+                    width: "100%",
                     height: 'auto',
                     alignContent:'center',
                     alignItems:'center',
