@@ -12,6 +12,7 @@ const MainPage = () => {
           alignItems: 'center',
           height: '400px', // Adjust height as needed
           overflow: 'hidden',
+          marginBottom: "20px"
         },
         cardContainer: {
           display: 'flex',
@@ -51,8 +52,9 @@ const MainPage = () => {
         />
       </div>
       {/* Container for Image Cards */}
+      <div>Site Coming Soon</div>
     <div style={styles.cardContainer}>
-        {Array.from({ length: 4 }).map((_, index) => (
+        {Array.from({ length: 3 }).map((_, index) => (
           <div key={index} style={styles.card}>
             <Image 
               src={`/images/chips.jpg`} // Update with your image paths
