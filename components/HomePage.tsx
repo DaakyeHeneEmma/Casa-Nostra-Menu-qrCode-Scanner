@@ -42,7 +42,7 @@ const MainPage = () => {
     <>
       <div style={styles.banner}>
         <Image 
-          src="https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/images/IMG_9270.jpg?t=2024-10-21T12%3A29%3A29.279Z"
+          src={`${process.env.NEXT_PUBLIC_S3_ACCESS_IMAGES}/images/IMG_9270.jpg?t=2024-10-21T12%3A29%3A29.279Z`}
           alt="Banner Image"
           layout="responsive"
           width={200}
@@ -55,7 +55,7 @@ const MainPage = () => {
         {Array.from({ length: 3 }).map((_, index) => (
           <div key={index} style={styles.card}>
             <Image 
-              src={`https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/images/chips.jpg`} // Update with your image paths
+              src={`${process.env.NEXT_PUBLIC_S3_ACCESS_IMAGES}/images/chips.jpg`} // Update with your image paths
               alt={`Small Image Card ${index + 1}`}
               style={styles.image}
               layout="responsive"
