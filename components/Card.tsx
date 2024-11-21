@@ -3,15 +3,15 @@ import Image from 'next/image';
 
 
 const Card = () => {
-    const styles = {
-        banner: {
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '400px', 
-          overflow: 'hidden',
-        },
-      };
+    // const styles = {
+    //     banner: {
+    //       display: 'flex',
+    //       justifyContent: 'center',
+    //       alignItems: 'center',
+    //       height: '400px', 
+    //       overflow: 'hidden',
+    //     },
+    //   };
   return (
     <>
       {/* Simple Small Image Card */}
