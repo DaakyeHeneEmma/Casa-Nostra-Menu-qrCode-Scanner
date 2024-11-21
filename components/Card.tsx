@@ -3,18 +3,17 @@ import Image from 'next/image';
 
 
 const Card = () => {
-    const styles = {
-        banner: {
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '400px', 
-          overflow: 'hidden',
-        },
-      };
+    // const styles = {
+    //     banner: {
+    //       display: 'flex',
+    //       justifyContent: 'center',
+    //       alignItems: 'center',
+    //       height: '400px', 
+    //       overflow: 'hidden',
+    //     },
+    //   };
   return (
     <>
-      {/* Simple Small Image Card */}
       <div className="flex justify-center mt-8 pt-10">
         <div className="bg-gray-200 rounded-lg overflow-hidden shadow-lg w-1/3"> {/* Set width to 1/3 */}
           <Image 
