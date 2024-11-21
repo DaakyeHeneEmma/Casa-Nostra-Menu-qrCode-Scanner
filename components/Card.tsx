@@ -14,7 +14,6 @@ const Card = () => {
     //   };
   return (
     <>
-      {/* Simple Small Image Card */}
       <div className="flex justify-center mt-8 pt-10">
         <div className="bg-gray-200 rounded-lg overflow-hidden shadow-lg w-1/3"> {/* Set width to 1/3 */}
           <Image 
