@@ -23,7 +23,28 @@ const MainPage = () => {
           height={400}
         />
       </div>
-      {/* Container for Image Cards */}
+      <div style={{
+        height:240,
+        width:'50%',
+        backgroundColor:"greenyellow",
+        borderRadius:'3%',
+        alignContent:"center",
+        wordWrap:"normal",
+        alignItems:'center',
+        alignSelf:"center"
+      }}>
+        <Image src={'/'} height={"200"} width='200' alt='image'/>
+        <div style={{
+          height:"50%",
+          width:"90%",
+          backgroundColor:"red",
+          alignContent:'center'
+
+        }}>
+
+        <p>something</p>
+        </div>
+      </div>
       <div>Site Coming Soon</div>
   
     </>
