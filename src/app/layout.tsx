@@ -2,6 +2,7 @@ import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
 import MenuBar from '../../components/MenuBar'
 
+
 export default function RootLayout({
   children,
 }: {
@@ -9,6 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <>
+ 
     <html lang="en">
     <head>
         <link rel="icon" href="/favicon.ico" sizes="any"/>
