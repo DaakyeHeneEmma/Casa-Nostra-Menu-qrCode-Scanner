@@ -6,4 +6,5 @@
 
 test.js
 /.next 
-/.next/ 
+/.next/
+/backend/csnabackend/lib/
