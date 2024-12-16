@@ -1,4 +1,9 @@
-const Items = [{
+export interface Item {
+  alt: string;
+  source: string;
+}
+
+ const Items:Item[] = [{
     alt: "Soft Drinks",
     source: "https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/menu-casa--nostra1-1.jpg"
   }, {
@@ -28,6 +33,6 @@ const Items = [{
   }, {
     alt: "Cocktails",
     source: `https://kxxclxmmdkyrcsvsptqp.supabase.co/storage/v1/object/public/website/menu-casa--nostra1-10.jpg?t=2024-10-21T12%3A05%3A02.419Z`
-  },];
+  }];
 
   export default Items
